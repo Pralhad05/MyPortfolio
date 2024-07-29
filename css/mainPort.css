@@ -1,0 +1,524 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #676a81;
+    background: #fff;
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
+/* Container */
+.containerm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 1537px;
+    padding: 0;
+}
+
+
+
+/* Header */
+.header-area {
+    width: 100%;
+    background-color: #ccdbe9;
+    height: 15vh;
+    border-bottom: solid purple 2px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    width: 16%;
+    height: 15vh;
+    overflow: hidden;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+    margin-left: 18px;
+}
+
+.navbar {
+    width: 84%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-list a:hover {
+    text-shadow: 2px 1px 1px black;
+    color: #f000f0;
+}
+
+/* Welcome Section */
+.content-welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/walpaper.JPG') no-repeat center center/cover;
+    height: 109vh;
+    margin-top: 15vh;
+}
+
+.wallpaper {
+    position: relative;
+    left: 18%;
+    bottom: 20%;
+}
+
+.text {
+    text-align: center;
+    color: #21217c;
+}
+
+.text h2 {
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1.3;
+    margin: 0.5em 0;
+}
+
+.text h2 span {
+    color: #d92cf9;
+}
+
+.text p {
+    font-size: 1.5em;
+    margin: 0.5em 0 1.5em;
+}
+
+.text a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #b636ff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #b636ff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1em;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text a:hover {
+    background-color: #9f00ff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
+}
+
+/* Section Styles */
+.section {
+    height: 100vh;
+    padding: 50px;
+    background-color: #f9fbfd;
+    margin: 0vh 0 0;
+    border-bottom: 1px solid;
+
+}
+
+.section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #76217c;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.section p {
+    font-size: 1.2em;
+    color: #676a81;
+}
+
+
+/* Education Section */
+.contaner_edu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.box {
+    width: 30%;
+    height: 69vh;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow: hidden;
+
+}
+
+.box h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    top: 3%;
+    left: 10%;
+    bottom: 10%;
+}
+
+.box h5 {
+    color: #ff0486;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    left: 10%;
+    bottom: 14%;
+
+}
+
+#sa {
+    color: #1d1d81;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: relative;
+    left: 10%;
+    bottom: 6%;
+}
+
+.box h1 {
+    color: #1d1d81;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: relative;
+    left: 10%;
+    bottom: 24%;
+    ;
+}
+
+.box p {
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    position: relative;
+    bottom: 29%;
+    font-weight: 900;
+
+}
+
+/* ----------------------------------
+           About me 
+------------------------------------  */
+.containerab {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.left {
+    width: 59%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.left_top {
+    width: 100%;
+    height: 52vh;
+}
+
+.left_top h4 {
+    color: black;
+    margin-left: 16px;
+}
+
+.left_top p {
+    color: #0000009e;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 43px;
+}
+
+.left_bottom {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-top: 2px solid;
+}
+
+.right {
+    width: 39%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+}
+
+.right_top {
+    width: 100%;
+    height: 52vh;
+    border-radius: 23px;
+    margin-bottom: 16px;
+}
+
+.right_top img {
+    width: auto;
+    height: 51vh;
+    margin-left: 22%;
+    border-radius: 300px;
+}
+
+.right_bottom {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ic {
+    margin: 8px;
+    font-size: 35px;
+}
+
+#ins {
+    color: rgb(236, 0, 205);
+}
+
+a:hover {
+    text-shadow: 0 1px 5px #e60000;
+    color: #fff;
+}
+
+/* ----------------------------------
+           skills
+------------------------------------  */
+.containersk {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pleft {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 69px;
+    align-items: stretch;
+}
+
+.pleft label {
+    color: black;
+    font-weight: 700;
+}
+
+.pright {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 69px;
+    align-items: stretch;
+}
+
+.pright label {
+    color: black;
+    font-weight: 700;
+}
+
+/* ----------------------------------
+           About me 
+------------------------------------  */
+.contactm {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cleft {
+    width: 55%;
+    height: 72vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.cright {
+    width: 40%;
+    height: 72vh;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+form {
+    box-shadow: 4px 3px 15px;
+    background-color: aliceblue;
+}
+
+form input {
+    width: 45%;
+    height: 7vh;
+    border: none;
+    font-size: 18px;
+    padding: 0px;
+    margin: 7px 10px;
+    padding: 2px 24px;
+}
+
+form #em,
+#su,
+#sub {
+    width: 95%;
+    background-color: white;
+}
+
+#texta {
+    resize: vertical;
+    width: 95%;
+    margin-left: 10px;
+    border: none;
+    height: 30vh;
+}
+
+#sub {
+    background-color: #e403e4;
+}
+
+#sub:hover {
+    background-color: #b100b1;
+    color: #fff;
+    box-shadow: 5px 7px 8px black;
+}
+
+.cright h3 {
+    font-size: 24px;
+    color: #3c4258;
+}
+
+.cright p {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #636a82;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+/* ----------------------------------
+           Photos
+------------------------------------  */
+.main_IMG {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+
+.mycontainer {
+    width: 25%;
+    height: 87%;
+    overflow: hidden;
+    border-radius: 15px
+}
+
+.myimg {
+    display: flex;
+    width: 600%;
+    animation: slide 40s infinite;
+}
+
+.imgbox {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.imgbox img {
+    width: 20%;
+    display: block;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    16.66% {
+        transform: translateX(-100%);
+    }
+
+    33.33% {
+        transform: translateX(-200%);
+    }
+
+    50% {
+        transform: translateX(-300%);
+    }
+
+    66.66% {
+        transform: translateX(-400%);
+    }
+
+    83.33% {
+        transform: translateX(-500%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-top: 2px solid black;
+}
+
+.footer a,
+p {
+    color: black;
+    text-transform: capitalize;
+}
